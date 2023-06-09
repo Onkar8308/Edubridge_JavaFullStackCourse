@@ -1,4 +1,4 @@
-package DoSelectAssignments;
+package Assignments;
 
 class StudentData1{
 	String name;
@@ -44,14 +44,14 @@ class Classroom{
 }
 }
 
-public class Source {
+public class StudetReg {
 	public static void main(String[] args) {
-		StudentData1 s= new StudentData1("A", 100,"12344o1n2@k123");
+		StudentData1 s= new StudentData1("A", 6,"12344o1n2@k123");
 		
-		Classroom cm = new Classroom();
-		String msg =cm.registerStudent(s);
+		Classroom cr = new Classroom();
+		String msg =cr.registerStudent(s);
 		System.out.println(msg);
-		String msg1=cm.studentCard(s);
+		String msg1=cr.studentCard(s);
 		System.out.println(msg1);
 	}
 }

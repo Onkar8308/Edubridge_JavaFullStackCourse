@@ -19,6 +19,7 @@ public class EvenOddPgm {
 		for(int i=0;i<size;i++) {
 		int ip=sc.nextInt();
 		list.add(ip);
+		
 		}
 		
 		Iterator<Integer> it = list.iterator();

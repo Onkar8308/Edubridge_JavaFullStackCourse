@@ -12,7 +12,7 @@ public class FactorialSum {
 			res=res+(double)(i/fact);
 			i++;
 		}
-		System.out.println("sum :"+res);
+		System.out.println("sum :"+fact);
 	}	
 
 }

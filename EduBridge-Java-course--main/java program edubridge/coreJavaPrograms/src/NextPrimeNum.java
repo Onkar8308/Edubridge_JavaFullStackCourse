@@ -4,7 +4,6 @@ public class NextPrimeNum {
 	public static void main(String[] args) {
 		Prime p = new Prime();
 		int ipData = (p.inputData()+1);
-		
 		while(!p.isPrime(ipData)) {
 			ipData = ipData + 1;
 		}
